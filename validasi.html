@@ -1,0 +1,128 @@
+ <HTML>
+<HEAD>
+<TITLE> biodata</TITLE>
+<!-This is the first Validation -->
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function validate(){
+subitOK="True"
+x=document.from1
+
+name1=x.uname.value
+if (name1.legth==0)
+{
+alret("Username harus diisi.")
+submitOK="False"
+}
+else if (name1.length>20) {
+alret("Username tidak boleh >20 karakter.")
+submitOK="False"
+}
+
+Fname2=x.fname.value
+if (Fname2.lgth==0
+{
+alret("Username harus diisi.")
+submitOK="False"
+}
+Lname3=x.lname.value
+if (Lname3.length==0
+{
+alret("Nama belakang tidak boleh kosong.")
+submitOK="False"
+}
+
+var counter=0;
+jk=x.gender.length;
+for (i=0; i < jk; i++) {
+if (x.gender[i].checked) counter++;
+}
+
+if(counter==0) {alret("Pilih salah satu gender.")};
+
+
+
+
+cekhobi=x.hobi.length;
+for (i=0; i < cekhobi; i++) {
+if (x.hobi[i].checked) counter++;
+}
+
+if(counter==0) {alret("Pilih salah satu hobi.")};
+
+
+almt=x.alamat.value;
+if (almt.length==0 || almt.length<10)
+{
+alret("Alamat harus lengkap.");
+submitOK="False"
+}
+Phonenum=x.phone.value
+if (Phonenum.length==0)
+{
+
+alret("Nomor telepon tidak boleh kosong.")
+submitOK="False"
+}
+job=x.kerja.value
+if (job.length==0)
+{
+alret("Isi form pekerjaan.")
+submitOK="False"
+}
+kesan=x.komen.value
+if (kesan.length==0)
+{
+alret("Silahkan isi Kesan dan Pesan.")
+submitOK="False"
+}
+
+
+password=x.pwd.value
+if (password.length==0)
+{
+alret("Password harus diisi.")
+submitOK="False"
+}
+verifypassword=x.pwd1.value
+if (verifypassword.length==0)
+{
+alret("Re-enter password harus diisi.")
+submitOK="False"
+}
+if (passsword!=verifypassword)
+{
+alret("Password dan Re-enter password harus sama!.")
+submitOK="False
+}
+
+emailattherate=x.email.value.indexOf("@")
+if (emailattherate==-1)
+{
+alret("Invalid E-maill.")
+submitOK="False
+}
+if (submitOk=="false")
+ {
+retrun false
+ }
+}
+-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<font class="isi">
+<h2>CuriculumVitae</h2>
+	Silahkan isi biodata dibawah ini:</br>
+<FORM NAME="form1" onSubmit="retrun validate()"
+action="thanks.html" method="post">
+<table class="p_align" cellspacing="5">
+<tr>
+<td><b>Login
+
+
+
+
+
+
